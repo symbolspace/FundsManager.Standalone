@@ -7,7 +7,7 @@
 * 精简程序代码；
 * 移植到github，欢迎有兴趣的朋友pull；
 
-#### 2017-03-03 v1.3.0.22    [立即下载](https://www.afuhao.com/resources/user/2/upload/file/2017-03-03/FundsManager.Standalone-v1.3.0.22-20170303-133615374900342.zip)
+#### 2017-03-03 v1.3.0.22    [立即下载](/raw/master/.files/versions/FundsManager.Standalone-v1.3.0.22-20170303.zip)
 * 优化主界面金额显示、日期显示；
 * 日期支持精确到时分；
 * 允许修改日期、金额，并且自动更正统计结果；
@@ -23,7 +23,7 @@
 * 去掉登录界面 默认开启自动登录的问题；
 * “注册帐号” 修改为“新用户”，本软件不会访问任何外网； 
 
-#### 2015-04-07 v1.1.0.11    [立即下载](https://www.afuhao.com/resources/user/2/upload/file/FundsManager.Standalone-20150407-1624.7z)
+#### 2015-04-07 v1.1.0.11    [立即下载](/raw/master/.files/versions/FundsManager.Standalone-v1.1.0.11-20150407-1624.7z)
 * 新增统计功能“对比统计”，可以对两个时间段内的收支情况进行对比；
 默认自动为 本月和上月 的时间段；
 * 修正所有统计界面最小化时出现错误的问题；
