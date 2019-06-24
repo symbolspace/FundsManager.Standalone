@@ -1,0 +1,123 @@
+﻿User
+    Id
+    Account
+    Password
+    Name 
+    ...
+    CreateDate
+
+ConsumeType
+    Id
+    Order
+    IsOut
+    Name
+Funds
+    Id
+    UserId
+    UserName
+    IsBank
+    BankName
+    CardNumber
+    Name
+    Money
+    CreateDateLong
+
+FundsLog
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    ConsumeTypeId
+    ConsumeTypeName
+    IsOut
+    Money
+    LastMoney
+    RelatedPerson
+    Comment
+    CreateDate
+
+
+FundsDay
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    Day
+    InMoney
+    OutMoney
+    CreateDate
+FundsMonth
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    Month
+    InMoney
+    OutMoney
+    CreateDate
+
+FundsAll
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    InMoney
+    OutMoney
+    CreateDate
+
+FundsConsumeTypeDay
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    ConsumeTypeId
+    ConsumeTypeName
+    Day
+    InMoney
+    OutMoney
+    CreateDate
+    
+FundsConsumeTypeMonth
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    ConsumeTypeId
+    ConsumeTypeName
+    Month
+    InMoney
+    OutMoney
+    CreateDate
+
+FundsConsumeTypeAll
+    Id
+    FundsId
+    FundsName
+    UserId
+    UserName
+    ConsumeTypeId
+    ConsumeTypeName
+    InMoney
+    OutMoney
+    CreateDate
+
+
+User  logon logoff changepassword
+ConsumeType  create edit delete 
+   stat   day   month   date.range
+Funds  create edit delete
+   stat   day   month   date.range
+   create,edit,delete  proc:FundsDay FundsMonth FundsAll FundsConsumeTypeDay FundsConsumeTypeMonth FundsConsumeTypeAll
+   edit: offset olddata, proc new data
+   delete: offset olddata
+
+FundsLog create edit delete
+   stat   day   month   date.range
+
+
