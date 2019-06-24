@@ -451,11 +451,13 @@ namespace FundsManager.Standalone {
         }
         static string ReplaceCSVChar(string text) {
             if (string.IsNullOrEmpty(text))
-                return "";
-            return text.Replace(",", ",,")
-                       .Replace("\r\n"," ")
-                       .Replace('\r',' ')
-                       .Replace('\n',' ');
+                return "\"\"";
+            return "\"" + text.Replace("\"", "\"\"") + "\"";
+
+            //return text.Replace(",", ",,")
+            //           .Replace("\r\n"," ")
+            //           .Replace('\r',' ')
+            //           .Replace('\n',' ');
         }
 
         private void lastMoneyLToolStripMenuItem_Click(object sender, EventArgs e) {
