@@ -57,8 +57,8 @@
     <Reference Include="Symbol, Version=4.0.0.6, Culture=neutral, PublicKeyToken=1e13af8be3ebbb99, processorArchitecture=MSIL">
       <HintPath>..\packages\Symbol.4.0.0.6\lib\net40\Symbol.dll</HintPath>
     </Reference>
-    <Reference Include="Symbol.Data, Version=4.1.0.5, Culture=neutral, PublicKeyToken=1e13af8be3ebbb99, processorArchitecture=MSIL">
-      <HintPath>..\packages\Symbol.Data.4.1.0.5\lib\net40\Symbol.Data.dll</HintPath>
+    <Reference Include="Symbol.Data, Version=4.1.0.6, Culture=neutral, PublicKeyToken=1e13af8be3ebbb99, processorArchitecture=MSIL">
+      <HintPath>..\packages\Symbol.Data.4.1.0.6\lib\net40\Symbol.Data.dll</HintPath>
     </Reference>
     <Reference Include="Symbol.Data.SQLite, Version=4.1.0.2, Culture=neutral, PublicKeyToken=1e13af8be3ebbb99, processorArchitecture=MSIL">
       <HintPath>..\packages\Symbol.Data.SQLite.4.1.0.2\lib\net35\Symbol.Data.SQLite.dll</HintPath>
